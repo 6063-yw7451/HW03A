@@ -1,60 +1,16 @@
-# p5.js Template
+## Summary
+This code is using nested for() loops, repeating to draw circles in two different sizes.
 
-This is a README file that can be used to describe and document your assignment.
+## Plan
+First, I decide to draw the first line ellipses(a big one and a small one).Here is the sketch I did to clarify my next step.
+Image on Repo:
+![Sketch](./sketch.jpg)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+I found the odd-numbered rows are all the same, and the even-numbered rows have smaller circles first and then larger circles, so I added if-else statement to define the row.
 
----
----
+## Hard & Fun
+I didn't use if-else statement at first, this is the first code I wrote. I didn't seperate them in odd/even rows, I drew them directly.
+Image on Repo:
+![First Try](./Prototype.png)
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+It is interesting to see the same result but using different methods. I think using if-else is more clear, and more convinent to draw complex patterns.
