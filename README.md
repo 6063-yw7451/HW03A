@@ -4,7 +4,7 @@ This code is using nested for() loops, repeating to draw circles in two differen
 ## Plan
 First, I decide to draw the first line ellipses(a big one and a small one).Here is the sketch I did to clarify my next step.
 Image on Repo:
-![Sketch](./sketch.jpg)
+![Sketch](./Sketch.jpg)
 
 I found the odd-numbered rows are all the same, and the even-numbered rows have smaller circles first and then larger circles, so I added if-else statement to define the row.
 
